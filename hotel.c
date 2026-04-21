@@ -4,22 +4,6 @@
 #include "hotel.h"
 
 
-struct Hotel{
-    char name[50];
-    char contact[20];
-    char series;
-    int roomno;
-    int days;
-    char checkin[20];
-    char checkout[20];
-    int roombill;
-    int foodpref;
-    int foodbill;
-    int rating;
-    int totalbill;
-};
-
-
 //login
 int login() {
     char username[50], password[50];
